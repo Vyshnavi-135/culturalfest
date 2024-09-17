@@ -1,0 +1,42 @@
+.body{
+    background: #333;
+    margin :0;
+}
+.dropdown{
+    width:100%;
+    background:hsla(148, 85%, 46%, 0.816);
+    height: 45px;
+    padding-top: 0%;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+ ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    width: 150px;
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a:hover{
+    background: #0c464d;
+}
+ul li ul{
+    background: #000033;
+    display: none;
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    padding-left: 0%;
+}
+ul li:hover ul {
+display: block;
+}

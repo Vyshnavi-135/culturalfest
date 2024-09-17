@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+}
+.event-1{
+    margin-right: 130px;
+    margin-top: 50px;
+}
+.srm{
+    color: white;
+}
+.event-2{
+    margin-right: 180px;
+}
+.event-3{
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+.img-1{
+    height: 130px;
+}
+.img-2{
+    height: 180px;
+}
+.img-3{
+    height: 200px;
+    margin-bottom: 20px;
+}
+p{
+    font-weight: bold ;
+    
+}
+.p-style{
+    font-family: monospace;
+}
+.img-4{
+    text-align: center;
+    margin-top: 50px;
+}
+.be{
+    margin-top: 50px;
+}
+.button-1{
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+.button-2{
+    margin-bottom: 15px;
+}

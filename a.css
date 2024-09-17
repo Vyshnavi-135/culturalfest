@@ -1,0 +1,60 @@
+.body{
+    background: #333;
+    margin :0;
+}
+.dropdown{
+    width:100%;
+    background:hsla(148, 85%, 46%, 0.816);
+    height: 45px;
+    padding-top: 0%;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+ ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    width: 200px;
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+}
+a:hover{
+    background: #0c464d;
+    height: 45px;
+}
+ul li ul{
+    display: none;
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    padding-left: 0%;
+}
+ul li:hover ul {
+display: block;
+}
+.card{
+    height: 7vh;
+    width: 34vh;
+    margin-top: 40px;
+    border-radius: 8px;
+    border-width:7px
+}
+.card-1{
+    height: 40vh;
+    width: 30vw;
+}
+.vertical {
+    border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+  }
+ 
